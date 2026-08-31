@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AVANS — Branding That Elevates Your Brand.</title>
+<meta name="description" content="AVANS is a branding and creative studio crafting identity systems, digital experiences, and brand strategy for companies that refuse to blend in.">
+<meta name="keywords" content="AVANS, branding agency, brand identity, creative studio, web design, brand strategy">
+<meta name="author" content="AVANS">
+<meta name="theme-color" content="#050a12">
+
+<!-- Open Graph -->
+<meta property="og:title" content="AVANS — Branding That Elevates Your Brand.">
+<meta property="og:description" content="A branding and creative studio crafting identity systems built to outlast trends.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/avans-logo-transparent.png">
+
+<!-- Favicons -->
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Ambient background layers -->
+<div class="bg-layer" aria-hidden="true">
+  <div class="bg-void"></div>
+  <div class="bg-aurora bg-aurora--one"></div>
+  <div class="bg-aurora bg-aurora--two"></div>
+  <img src="assets/shield-crop.png" alt="" class="bg-logo-mark">
+  <canvas id="shard-canvas"></canvas>
+  <svg class="bg-grid" aria-hidden="true"><defs><pattern id="gridPattern" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M 64 0 L 0 0 0 64" fill="none" stroke="rgba(140,205,235,0.05)" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#gridPattern)"/></svg>
+</div>
+
+<!-- Nav -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#top" class="brand-mark" aria-label="AVANS home">
+      <img src="assets/shield-crop.png" alt="" class="brand-mark__glyph" width="40" height="37">
+      <span class="brand-mark__text">AVANS</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#why">Why Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn--bubble btn--small header-cta">
+      <span class="btn__label">Start a Project</span>
+      <span class="btn__sheen" aria-hidden="true"></span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero__inner">
+      <div class="hero__logo-wrap" data-reveal>
+        <img
+          src="assets/avans-wordmark.png"
+          alt="AVANS — fractured ice wordmark"
+          class="hero__logo"
+          width="1217" height="312"
+          fetchpriority="high">
+      </div>
+
+      <p class="hero__tagline" data-reveal data-reveal-delay="1">Branding That Elevates Your Brand.</p>
+
+      <p class="hero__sub" data-reveal data-reveal-delay="2">
+        We forge identity systems, digital experiences, and brand strategy for
+        companies with the ambition to lead their category — not follow it.
+      </p>
+
+      <div class="hero__actions" data-reveal data-reveal-delay="3">
+        <a href="#contact" class="btn btn--bubble btn--primary">
+          <span class="btn__label">Start Your Rebrand</span>
+          <span class="btn__sheen" aria-hidden="true"></span>
+        </a>
+        <a href="#services" class="btn btn--bubble btn--ghost">
+          <span class="btn__label">Explore Services</span>
+          <span class="btn__sheen" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span class="scroll-cue__line"></span>
+      <span class="scroll-cue__text">Scroll</span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="section__inner about__grid">
+      <div class="about__copy" data-reveal>
+        <span class="eyebrow">About AVANS</span>
+        <h2 class="section-title">Identity, engineered <br> with precision.</h2>
+        <p class="section-lede">
+          AVANS was founded on a simple belief: a brand is not a logo, it's a system.
+          Every mark, motion, and message we design is built on the same faceted logic —
+          distinct edges, deliberate structure, and a clarity that holds up under pressure.
+        </p>
+        <p class="section-lede">
+          We partner with founders and marketing teams who are done blending in.
+          From naming and visual identity to full digital builds, our studio treats
+          every brand like a flagship product launch.
+        </p>
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__value" data-count="120">0</span>
+            <span class="stat__suffix">+</span>
+            <span class="stat__label">Brands Shaped</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" data-count="14">0</span>
+            <span class="stat__label">Industries Served</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" data-count="98">0</span>
+            <span class="stat__suffix">%</span>
+            <span class="stat__label">Client Retention</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__facet-panel" data-reveal data-reveal-delay="1" aria-hidden="true">
+        <div class="facet-shard facet-shard--a"></div>
+        <div class="facet-shard facet-shard--b"></div>
+        <div class="facet-shard facet-shard--c"></div>
+        <div class="facet-core">
+          <img src="assets/shield-crop.png" alt="" class="facet-core__glyph">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services" id="services">
+    <div class="section__inner">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Services</span>
+        <h2 class="section-title">Everything a brand needs to break the surface.</h2>
+      </div>
+
+      <div class="services__grid">
+        <article class="service-card" data-reveal>
+          <div class="service-card__corner" aria-hidden="true"></div>
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4L42 14V34L24 44L6 34V14L24 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M24 4V44M6 14L42 34M42 14L6 34" stroke="currentColor" stroke-width="1" opacity="0.4"/></svg>
+          </div>
+          <h3>Brand Identity</h3>
+          <p>Logo systems, color, typography, and visual language built to stay sharp across every touchpoint.</p>
+        </article>
+
+        <article class="service-card" data-reveal data-reveal-delay="1">
+          <div class="service-card__corner" aria-hidden="true"></div>
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="36" height="26" rx="2" stroke="currentColor" stroke-width="2"/><path d="M6 18H42" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="14" r="1.5" fill="currentColor"/><circle cx="17" cy="14" r="1.5" fill="currentColor"/></svg>
+          </div>
+          <h3>Web &amp; Digital</h3>
+          <p>High-performance websites and product interfaces engineered for speed, motion, and conversion.</p>
+        </article>
+
+        <article class="service-card" data-reveal data-reveal-delay="2">
+          <div class="service-card__corner" aria-hidden="true"></div>
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6C13 6 5 14 5 24C5 34 13 42 24 42C35 42 43 34 43 24" stroke="currentColor" stroke-width="2"/><path d="M24 6V24L38 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Brand Strategy</h3>
+          <p>Positioning, naming, and messaging frameworks that give every team a shared source of truth.</p>
+        </article>
+
+        <article class="service-card" data-reveal data-reveal-delay="3">
+          <div class="service-card__corner" aria-hidden="true"></div>
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="14" height="14" stroke="currentColor" stroke-width="2"/><rect x="26" y="8" width="14" height="14" stroke="currentColor" stroke-width="2"/><rect x="8" y="26" width="14" height="14" stroke="currentColor" stroke-width="2"/><rect x="26" y="26" width="14" height="14" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Web Designing</h3>
+          <p>We build websites that builds a long-term connection with your clients on the first interaction.</p>
+        </article>
+
+        <article class="service-card" data-reveal data-reveal-delay="4">
+          <div class="service-card__corner" aria-hidden="true"></div>
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4L28 18L42 18L31 27L35 41L24 32L13 41L17 27L6 18L20 18L24 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Motion &amp; Content</h3>
+          <p>Launch films, social content, and animated brand assets that carry your identity into motion.</p>
+        </article>
+
+        <article class="service-card" data-reveal data-reveal-delay="5">
+          <div class="service-card__corner" aria-hidden="true"></div>
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M6 40L18 16L26 28L32 18L42 40" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="34" cy="10" r="4" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Growth &amp; Campaigns</h3>
+          <p>Launch strategy and campaign systems that carry a new identity into the market with force.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       OUR WORK  (new section — sits between Services and Why Choose Us)
+       Two glass service columns (Sublimation / Vinyl), each with a
+       3-image gallery. Clicking any of the 6 images opens the
+       lightbox defined at the bottom of <body> and wired up in script.js.
+       To swap in real photography later, just replace the src="" paths
+       on the six <img class="work-gallery__img"> tags below — the
+       data-index attributes must stay 0-5 in document order so the
+       lightbox arrows keep navigating correctly.
+       ============================================================ -->
+  <section class="section work" id="work">
+    <div class="section__inner">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Our Work</span>
+        <h2 class="section-title">Print &amp; production, done right.</h2>
+        <p class="section-lede">
+          Beyond identity systems, our production floor turns finished brand
+          assets into physical goods — apparel, signage, and merchandise that
+          carry the same faceted precision as everything else we ship.
+        </p>
+      </div>
+
+      <div class="work__grid">
+
+        <!-- Service column 1: Sublimation Printing -->
+        <article class="work-service glass-panel" data-reveal>
+          <div class="work-service__head">
+            <span class="work-service__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M24 4C24 4 12 18 12 28C12 35.2 17.4 40 24 40C30.6 40 36 35.2 36 28C36 18 24 4 24 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M18 28C18 31.5 20.5 34 24 34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Sublimation Printing</h3>
+          </div>
+          <p class="work-service__desc">
+            Vibrant, all-over dye prints fused directly into apparel, mugs, and
+            polyester goods — colors that won't crack, fade, or peel.
+          </p>
+
+          <div class="work-gallery">
+            <button type="button" class="work-gallery__item" data-index="0" aria-label="Open sublimation printing sample 1 in lightbox">
+              <img class="work-gallery__img" src="sublimation-1.jpg" alt="Sublimation printed apparel sample showing vibrant all-over color" loading="lazy" width="800" height="800">
+            </button>
+            <button type="button" class="work-gallery__item" data-index="1" aria-label="Open sublimation printing sample 2 in lightbox">
+              <img class="work-gallery__img" src="sublimation-2.jpg" alt="Sublimation printed mug sample with full-wrap graphic" loading="lazy" width="800" height="800">
+            </button>
+            <button type="button" class="work-gallery__item" data-index="2" aria-label="Open sublimation printing sample 3 in lightbox">
+              <img class="work-gallery__img" src="sublimation-3.jpg" alt="Close-up of sublimation print texture on polyester fabric" loading="lazy" width="800" height="800">
+            </button>
+          </div>
+        </article>
+
+        <!-- Service column 2: Vinyl Printing -->
+        <article class="work-service glass-panel" data-reveal data-reveal-delay="1">
+          <div class="work-service__head">
+            <span class="work-service__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="36" height="28" rx="2" stroke="currentColor" stroke-width="2"/><path d="M14 38V42M34 38V42" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M16 20L22 26L16 32" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M26 32H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Vinyl Printing</h3>
+          </div>
+          <p class="work-service__desc">
+            Precision cut-vinyl decals, apparel lettering, and signage —
+            weatherproof, durable, and built to hold a razor-sharp edge.
+          </p>
+
+          <div class="work-gallery">
+            <button type="button" class="work-gallery__item" data-index="3" aria-label="Open vinyl printing sample 1 in lightbox">
+              <img class="work-gallery__img" src="vinyl-1.jpg" alt="Cut-vinyl decal sample applied to a storefront window" loading="lazy" width="800" height="800">
+            </button>
+            <button type="button" class="work-gallery__item" data-index="4" aria-label="Open vinyl printing sample 2 in lightbox">
+              <img class="work-gallery__img" src="vinyl-2.jpg" alt="Vinyl lettering sample on a branded t-shirt" loading="lazy" width="800" height="800">
+            </button>
+            <button type="button" class="work-gallery__item" data-index="5" aria-label="Open vinyl printing sample 3 in lightbox">
+              <img class="work-gallery__img" src="vinyl-3.jpg" alt="Close-up of clean cut-vinyl edge detail on signage" loading="lazy" width="800" height="800">
+            </button>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="work__cta" data-reveal data-reveal-delay="2">
+        <a href="#contact" class="btn btn--bubble btn--ghost">
+          <span class="btn__label">View More Projects</span>
+          <span class="btn__sheen" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section why" id="why">
+    <div class="section__inner why__grid">
+      <div class="section-head why__head" data-reveal>
+        <span class="eyebrow">Why AVANS</span>
+        <h2 class="section-title">Built different, <br>by design.</h2>
+        <p class="section-lede">
+          Most studios hand you a deck. We hand you a system — tested, documented,
+          and ready to scale the moment your brand needs to move fast.
+        </p>
+      </div>
+
+      <div class="why__features">
+        <div class="feature" data-reveal>
+          <div class="feature__glyph" aria-hidden="true"></div>
+          <h3>Senior team, every project</h3>
+          <p>No hand-offs to juniors. The strategists and designers you meet on day one stay with you through launch.</p>
+        </div>
+        <div class="feature" data-reveal data-reveal-delay="1">
+          <div class="feature__glyph" aria-hidden="true"></div>
+          <h3>Systems over one-offs</h3>
+          <p>Every deliverable is built as a reusable component, not a static file — so your brand scales without breaking.</p>
+        </div>
+        <div class="feature" data-reveal data-reveal-delay="2">
+          <div class="feature__glyph" aria-hidden="true"></div>
+          <h3>Engineering-grade execution</h3>
+          <p>Our design and dev teams work in parallel, so what you approve in a mockup is exactly what ships.</p>
+        </div>
+        <div class="feature" data-reveal data-reveal-delay="3">
+          <div class="feature__glyph" aria-hidden="true"></div>
+          <h3>Transparent process</h3>
+          <p>Fixed milestones, clear timelines, and direct access to your team — no black boxes, no surprises.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="section__inner contact__grid">
+      <div class="contact__intro" data-reveal>
+        <span class="eyebrow">Contact</span>
+        <h2 class="section-title">Let's build something <br>that holds its edge.</h2>
+        <p class="section-lede">
+          Tell us about your brand and where you want to take it. We reply to every
+          inquiry within one business day.
+        </p>
+
+        <ul class="contact__list">
+          <li>
+            <span class="contact__label">Email</span>
+            <a href="mailto:navajkerrie@gmail.com">navajkerrie@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact__label">Phone</span>
+            <a href="tel:+254712364610">+254 (712) 364-610</a>
+          </li>
+          <li>
+            <span class="contact__label">Studio</span>
+            <span>Remote-first · Worldwide</span>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact__form glass-panel" data-reveal data-reveal-delay="1" id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="form-row">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" autocomplete="organization">
+        </div>
+        <div class="form-row">
+          <label for="message">Tell us about your project</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--bubble btn--primary btn--full">
+          <span class="btn__label">Send Message</span>
+          <span class="btn__sheen" aria-hidden="true"></span>
+        </button>
+
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="section__inner footer__inner">
+    <a href="#top" class="brand-mark brand-mark--footer" aria-label="AVANS home">
+      <img src="assets/shield-crop.png" alt="" class="brand-mark__glyph" width="28" height="26">
+      <span class="brand-mark__text">AVANS</span>
+    </a>
+
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#why">Why Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <p class="footer__copy">&copy; <span id="year"></span> AVANS Studio. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ============================================================
+     WORK LIGHTBOX (new — paired with the "Our Work" section above)
+     Single reusable overlay for all 6 gallery images. script.js
+     swaps the <img src> / alt on open and on arrow navigation,
+     so only one lightbox markup block is needed for the whole page.
+     ============================================================ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Project image viewer" aria-hidden="true">
+  <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+
+  <button type="button" class="lightbox__close btn btn--bubble" id="lightboxClose" aria-label="Close image viewer">
+    <span class="btn__label">&times;</span>
+    <span class="btn__sheen" aria-hidden="true"></span>
+  </button>
+
+  <button type="button" class="lightbox__nav lightbox__nav--prev btn btn--bubble" id="lightboxPrev" aria-label="Previous image">
+    <span class="btn__label" aria-hidden="true">&#8249;</span>
+    <span class="btn__sheen" aria-hidden="true"></span>
+  </button>
+
+  <figure class="lightbox__frame glass-panel">
+    <img src="" alt="" id="lightboxImage" class="lightbox__image">
+    <figcaption class="lightbox__caption" id="lightboxCaption"></figcaption>
+  </figure>
+
+  <button type="button" class="lightbox__nav lightbox__nav--next btn btn--bubble" id="lightboxNext" aria-label="Next image">
+    <span class="btn__label" aria-hidden="true">&#8250;</span>
+    <span class="btn__sheen" aria-hidden="true"></span>
+  </button>
+
+  <p class="lightbox__counter" id="lightboxCounter" aria-hidden="true"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
